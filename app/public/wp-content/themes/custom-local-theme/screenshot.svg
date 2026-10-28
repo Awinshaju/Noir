@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#ffffff"/>
+  
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1f2937">Custom Local</text>
+  
+  <!-- Navigation -->
+  <text x="700" y="50" font-family="Arial, sans-serif" font-size="14" fill="#2563eb">Home</text>
+  <text x="780" y="50" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Blog</text>
+  <text x="850" y="50" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">About</text>
+  <text x="930" y="50" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Contact</text>
+  
+  <!-- Hero Section -->
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect y="80" width="1200" height="280" fill="url(#heroGradient)"/>
+  
+  <!-- Hero Text -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">Welcome to Our Site</text>
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="18" fill="#f0f0f0" text-anchor="middle">A clean, modern, responsive WordPress theme</text>
+  
+  <!-- Hero Button -->
+  <rect x="500" y="260" width="200" height="45" rx="6" fill="#f59e0b"/>
+  <text x="600" y="288" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">View Blog</text>
+  
+  <!-- Content Section -->
+  <rect y="360" width="1200" height="20" fill="#f9fafb"/>
+  
+  <!-- Section Title -->
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1f2937" text-anchor="middle">Featured Posts</text>
+  
+  <!-- Cards -->
+  <!-- Card 1 -->
+  <rect x="80" y="480" width="320" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="80" y="480" width="320" height="150" fill="#2563eb"/>
+  <text x="240" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Featured Image</text>
+  <text x="100" y="650" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Post Title One</text>
+  <text x="100" y="680" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</text>
+  <text x="100" y="720" font-family="Arial, sans-serif" font-size="13" fill="#2563eb" font-weight="bold">Read More →</text>
+  
+  <!-- Card 2 -->
+  <rect x="440" y="480" width="320" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="440" y="480" width="320" height="150" fill="#1e40af"/>
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Featured Image</text>
+  <text x="460" y="650" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Post Title Two</text>
+  <text x="460" y="680" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Sed do eiusmod tempor incididunt ut labore et dolore.</text>
+  <text x="460" y="720" font-family="Arial, sans-serif" font-size="13" fill="#2563eb" font-weight="bold">Read More →</text>
+  
+  <!-- Card 3 -->
+  <rect x="800" y="480" width="320" height="280" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="800" y="480" width="320" height="150" fill="#f59e0b"/>
+  <text x="960" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Featured Image</text>
+  <text x="820" y="650" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Post Title Three</text>
+  <text x="820" y="680" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Ut enim ad minim veniam, quis nostrud exercitation.</text>
+  <text x="820" y="720" font-family="Arial, sans-serif" font-size="13" fill="#2563eb" font-weight="bold">Read More →</text>
+  
+  <!-- CTA Section -->
+  <defs>
+    <linearGradient id="ctaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="80" y="800" width="1040" height="80" rx="8" fill="url(#ctaGradient)"/>
+  <text x="600" y="825" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Ready to Get Started?</text>
+  <text x="600" y="850" font-family="Arial, sans-serif" font-size="14" fill="#f0f0f0" text-anchor="middle">Explore our latest content and stay updated</text>
+</svg>
