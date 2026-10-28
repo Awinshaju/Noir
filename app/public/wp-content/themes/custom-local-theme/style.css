@@ -362,13 +362,10 @@ header.scrolled {
   margin-left: auto;
 }
 
-.menu-toggle:hover {
-  color: var(--noir-accent);
-}
-
-.menu-toggle:focus {
-  outline: 2px solid var(--noir-accent);
-  outline-offset: 2px;
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: none !important;
+  }
 }
 
 /* ========================================
